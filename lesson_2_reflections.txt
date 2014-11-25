@@ -1,0 +1,31 @@
+What happens when you initialize a repository?
+
+laptop2@LAPTOP2-PC ~/reflections
+$ git init
+Initialized empty Git repository in c:/Users/laptop2/reflections/.git/
+
+a new folder is created (hidden) .git
+ Why do you need to do it?
+
+to keep track of changes . to original file
+
+You may also wish to run git status after you have created the file.
+ You should see that now both files are listed as untracked files.
+
+
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        lesson1.txt
+        lesson2.txt
+        lesson_2_reflections.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+laptop2@LAPTOP2-PC ~/reflections (master)
+$
